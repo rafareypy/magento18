@@ -1,0 +1,17 @@
+app/etc/local.xml
+media/*
+_mysql/*
+var/*
+downloader/*
+.DS_Store
+sitemap/*
+sitemaps/*
+_rakuten/E-*
+/nbproject/
+/.settings/
+/.buildpath
+/.project
+!var/.gitkeep
+
+.htaccess
+/nbproject/private/

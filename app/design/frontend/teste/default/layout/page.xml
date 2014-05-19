@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+	<layout>
+		<!-- Rota da pagina -->
+		<default module="page">
+			<!--  -->
+				<block type="page/html" name="root" output="toHtml" template="page/1columm.phtml" >
+
+					<block name="head" type="page/html_head" as="head" >					
+						<action method="addCss" >
+							<stylesheet>css/base.css</stylesheet>
+						</action>
+					</block>
+
+				</block>
+		</default>
+	</layout>
+
